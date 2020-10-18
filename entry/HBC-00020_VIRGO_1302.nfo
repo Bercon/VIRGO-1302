@@ -1,0 +1,125 @@
+
+
+-------------------------------------------------------------------------------
+
+
+         _   __        _     _ _      ____ _
+        / | / /__     | |__ (_) |_   / ___| |__   ___  ___ ___  ___
+        | |/ /_  )____| '_ \| | __| | |   | '_ \ / _ \/ _ \ __|/ _ \
+        |_/ / / /_____| |_) | | |_  | |___| | | |  __/  __\__ \  __/
+         /_/ /___|    |_.__/|_|\__|  \____|_| |_|\___|\___|___/\___|
+
+
+
+                         ___  _______
+                        /   \/   (_) \
+                       / _            \
+                     _/ (_) _____      \
+                    //     ´     \      \
+                   //      |    .´       \
+                   |\      ¨\__'_./       \
+                   | \                ()   \    :::  1/2 - B I T   C H E E S E
+                   |  \_____________________\
+                   |  |                     |   :::  HBC.MANUJARVINEN.COM
+                   |  |         _____,      |
+             ,     |()|        /      \     |   :::  RELEASE 00020
+            <_'    |  |       '        '    |
+                   |  |       |     *  |    |   :::  VIRGO 1302
+          ___      |  |        \. ,'  /     |
+         /___'      \ |         `----'      |   :::  ASSEMBLY '20
+        /    ?       \|                     |
+         ----'    _   '_____________________'
+                 |_'
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+                                     ________
+                                     C R E W:
+
+      Bercon       | HBC           |  Code, Graphics
+      dixan        | MFX + SK      |  Music
+
+
+
+                                     ____________
+                                     T H A N K S:
+
+      - HBC crew
+
+
+
+                                     ________
+                                     I N F O:
+
+      Runs on Chrome and Edge, because Webgl 2 support is best on those. Music
+      can take up to one minute to generate and you might see unresponsive tab
+      warning during this time, no action is required, warning should
+      automatically close when intro starts.
+
+      To run, mount folder with the HBC-00020_VIRGO_1302.html to a web server.
+      Open file listing on browser and click the file to run the intro.
+
+      For example if you have Node.js (nodejs.org) installed, here are step by
+      step instructions:
+      A)
+          * Launch HTTP server by running start_nodejs_http_server.bat
+      B)
+          * In the folder where intro is located, hold shift and right click
+            and select "Open PowerShell window here"
+          *  Type: "npx http-server" to launch a web server
+
+      * Open "localhost:8080" in normally launched Chrome
+      * Click "HBC-00020_VIRGO_1302.html" to start the intro
+
+      Alternative and not recommended way of running without web server, follow
+      instructions below.
+
+      The two protections that can be disabled to run the intro straight from
+      html file without web servers or clicking browser window to start it:
+        1. Cross origin protection that prevents reading from "tainted" canvas.
+           This is caused by running straight from file:// address and not
+           web server. If you are serving file from web server, you can ignore
+           this.
+        2. Auto play is disabled unless user interacts with the web page. This
+           You can try to fix by clicking around while intro loads.
+
+      You can either start chrome with the start_chrome_with_security_off.bat
+      file OR create a new Chrome shortcut with following options and starting
+      Chrome from that.
+
+      Shortcut with options:
+        --disable-web-security
+        --user-data-dir="C:/Temp"
+        --autoplay-policy=no-user-gesture-required
+
+      The first and second disable the cross origin protection. Third line
+      disables the auto play block. Auto play block can also be changed from
+      Chrome settings, by navigating to "chrome://flags/#autoplay-policy" and
+      selecting "No gesture is required". The security cannot be disabled from
+      browser settings and must be done through shortcut options or by serving
+      file through web server.
+
+      Start Chrome and you can drag'n'drop the index.html file into Chrome from
+      Explorer and it should play with no interaction required.
+
+
+
+      - Bercon
+
+
+                                     ____________
+                                     G R E E T S:
+
+                                     Adapt
+                                     Ananasmurska
+                                     Bits'n'Bites
+                                     cpdt
+                                     Kali
+                                     LLB / Ctrl-Alt-Test
+                                     noby
+                                     P01
+                                     Tekotuotanto
