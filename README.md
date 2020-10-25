@@ -23,7 +23,7 @@ Black hole rendering tries to simulate all features of you could observe in a re
 * Red and blushift in accretion disc caused by its rapid rotation around the black hole, the doppler effect
 * Brigthening of the accresion disc also caused by rotation
 
-Distortion of the light is achieved by raymarching from camera and applying gravity at each step based on distance traveled. Hybrid distance field and fixed length raymarching is used. While within volumetric cloud fixed step is used and while in empty space distance field with adaptive maximum step is used to still ensure high precision for gravity distortion. Gravity is modifed based on the angle of the ray in relation to rotation of the black hole to achieve the assymetry. Accretion disc color and brightness are also based on this angle.
+Distortion of the light is achieved by raymarching from camera and applying gravity at each step based on distance traveled. Hybrid distance field and fixed length raymarching is used. While within volumetric cloud fixed step is used and while in empty space distance field with adaptive maximum step is used to still ensure high precision for gravity distortion. Gravity is modified based on the angle of the ray in relation to rotation of the black hole to achieve the assymetry. Accretion disc color and brightness are also based on this angle.
 
 The tails leaving the black holes and the larger cloud around the binary system mimic what can be seen in the Nasas simulation. This is simply a spiral texture with appropriate noises applied.
 
